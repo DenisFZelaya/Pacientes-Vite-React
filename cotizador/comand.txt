@@ -1,0 +1,16 @@
+1. npm create vite@latest
+
+//Instalar tailwindcss
+2. npm install tailwindcss postcss autoprefixer 
+
+//Crear los archivos .config
+3. npx tailwindcss init -p
+
+//tailwindcss.config.js
+content: ["index.html", "./src/**/*.jsx"],
+
+//index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
